@@ -1,0 +1,1515 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "3.10.0.0",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FontSize": 22,
+            "ButtonText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "FZZYJT.TTF",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 86.6845,
+              "Y": 572.2733
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0763,
+              "Y": 0.8942
+            },
+            "PreSize": {
+              "X": 0.1056,
+              "Y": 0.0562
+            },
+            "LeftMargin": 26.6845,
+            "RightMargin": 989.3155,
+            "TopMargin": 49.7267,
+            "BottomMargin": 554.2733,
+            "Tag": 6,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "切换api",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "FZZYJT.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.5804,
+                  "Y": 17.863
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4465,
+                  "Y": 0.4962
+                },
+                "PreSize": {
+                  "X": 0.575,
+                  "Y": 0.6389
+                },
+                "LeftMargin": 19.0804,
+                "RightMargin": 31.9196,
+                "TopMargin": 6.637,
+                "BottomMargin": 6.363,
+                "Tag": 26,
+                "ActionTag": -1902293940,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -426587355,
+            "Size": {
+              "X": 120.0,
+              "Y": 36.0
+            },
+            "Name": "btn_changeApi",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 22,
+            "ButtonText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "FZZYJT.TTF",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 86.6845,
+              "Y": 507.4611
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0763,
+              "Y": 0.7929
+            },
+            "PreSize": {
+              "X": 0.1056,
+              "Y": 0.0562
+            },
+            "LeftMargin": 26.6845,
+            "RightMargin": 989.3155,
+            "TopMargin": 114.5389,
+            "BottomMargin": 489.4611,
+            "Tag": 37,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "支付",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "FZZYJT.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.5804,
+                  "Y": 17.863
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4465,
+                  "Y": 0.4962
+                },
+                "PreSize": {
+                  "X": 0.3667,
+                  "Y": 0.6389
+                },
+                "LeftMargin": 31.5804,
+                "RightMargin": 44.4196,
+                "TopMargin": 6.637,
+                "BottomMargin": 6.363,
+                "Tag": 38,
+                "ActionTag": -1822764350,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 740188740,
+            "Size": {
+              "X": 120.0,
+              "Y": 36.0
+            },
+            "Name": "btn_charge",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 22,
+            "ButtonText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "FZZYJT.TTF",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 86.6849,
+              "Y": 451.3631
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0763,
+              "Y": 0.7053
+            },
+            "PreSize": {
+              "X": 0.1056,
+              "Y": 0.0562
+            },
+            "LeftMargin": 26.6849,
+            "RightMargin": 989.3151,
+            "TopMargin": 170.6369,
+            "BottomMargin": 433.3631,
+            "Tag": 39,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "查询用户信息",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "FZZYJT.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 58.5806,
+                  "Y": 15.7856
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4882,
+                  "Y": 0.4385
+                },
+                "PreSize": {
+                  "X": 1.025,
+                  "Y": 0.6389
+                },
+                "LeftMargin": -2.9194,
+                "RightMargin": -0.0806,
+                "TopMargin": 8.7144,
+                "BottomMargin": 4.2856,
+                "Tag": 40,
+                "ActionTag": 1942048212,
+                "Size": {
+                  "X": 123.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -2031206115,
+            "Size": {
+              "X": 120.0,
+              "Y": 36.0
+            },
+            "Name": "btn_quary",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 22,
+            "ButtonText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "FZZYJT.TTF",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 86.6845,
+              "Y": 390.8364
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0763,
+              "Y": 0.6107
+            },
+            "PreSize": {
+              "X": 0.1056,
+              "Y": 0.0562
+            },
+            "LeftMargin": 26.6845,
+            "RightMargin": 989.3155,
+            "TopMargin": 231.1636,
+            "BottomMargin": 372.8364,
+            "Tag": 41,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "添加成就\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "FZZYJT.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.5804,
+                  "Y": 6.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4465,
+                  "Y": 0.1667
+                },
+                "PreSize": {
+                  "X": 0.6917,
+                  "Y": 1.2778
+                },
+                "LeftMargin": 12.0804,
+                "RightMargin": 24.9196,
+                "TopMargin": 7.0,
+                "BottomMargin": -17.0,
+                "Tag": 42,
+                "ActionTag": 1831577761,
+                "Size": {
+                  "X": 83.0,
+                  "Y": 46.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -41572313,
+            "Size": {
+              "X": 120.0,
+              "Y": 36.0
+            },
+            "Name": "btn_addAchivement",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 22,
+            "ButtonText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "FZZYJT.TTF",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 86.6844,
+              "Y": 326.0241
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0763,
+              "Y": 0.5094
+            },
+            "PreSize": {
+              "X": 0.1056,
+              "Y": 0.0562
+            },
+            "LeftMargin": 26.6844,
+            "RightMargin": 989.3156,
+            "TopMargin": 295.9759,
+            "BottomMargin": 308.0241,
+            "Tag": 43,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "分享",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "FZZYJT.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.5805,
+                  "Y": 16.3958
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4465,
+                  "Y": 0.4554
+                },
+                "PreSize": {
+                  "X": 0.3667,
+                  "Y": 0.6389
+                },
+                "LeftMargin": 31.5805,
+                "RightMargin": 44.4195,
+                "TopMargin": 8.1042,
+                "BottomMargin": 4.8958,
+                "Tag": 44,
+                "ActionTag": 510197595,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 48987844,
+            "Size": {
+              "X": 120.0,
+              "Y": 36.0
+            },
+            "Name": "btn_share",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 22,
+            "ButtonText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "FZZYJT.TTF",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 86.6844,
+              "Y": 261.2119
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0763,
+              "Y": 0.4081
+            },
+            "PreSize": {
+              "X": 0.1056,
+              "Y": 0.0562
+            },
+            "LeftMargin": 26.6844,
+            "RightMargin": 989.3156,
+            "TopMargin": 360.7881,
+            "BottomMargin": 243.2119,
+            "Tag": 45,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "获取位置",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "FZZYJT.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.5804,
+                  "Y": 17.8701
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4465,
+                  "Y": 0.4964
+                },
+                "PreSize": {
+                  "X": 0.6917,
+                  "Y": 0.6389
+                },
+                "LeftMargin": 12.0804,
+                "RightMargin": 24.9196,
+                "TopMargin": 6.6299,
+                "BottomMargin": 6.3701,
+                "Tag": 46,
+                "ActionTag": 1790954818,
+                "Size": {
+                  "X": 83.0,
+                  "Y": 23.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1644744159,
+            "Size": {
+              "X": 120.0,
+              "Y": 36.0
+            },
+            "Name": "btn_getLocation",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 22,
+            "ButtonText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "FZZYJT.TTF",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 86.6845,
+              "Y": 196.3996
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0763,
+              "Y": 0.3069
+            },
+            "PreSize": {
+              "X": 0.1056,
+              "Y": 0.0562
+            },
+            "LeftMargin": 26.6845,
+            "RightMargin": 989.3155,
+            "TopMargin": 425.6004,
+            "BottomMargin": 178.3996,
+            "Tag": 47,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "推送\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "FZZYJT.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.5804,
+                  "Y": 6.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4465,
+                  "Y": 0.1667
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 1.2778
+                },
+                "LeftMargin": 32.0804,
+                "RightMargin": 44.9196,
+                "TopMargin": 7.0,
+                "BottomMargin": -17.0,
+                "Tag": 48,
+                "ActionTag": -1054236247,
+                "Size": {
+                  "X": 43.0,
+                  "Y": 46.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 498227090,
+            "Size": {
+              "X": 120.0,
+              "Y": 36.0
+            },
+            "Name": "btn_push",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 22,
+            "ButtonText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "FZZYJT.TTF",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 89.0327,
+              "Y": 131.5873
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0784,
+              "Y": 0.2056
+            },
+            "PreSize": {
+              "X": 0.1056,
+              "Y": 0.0562
+            },
+            "LeftMargin": 29.0327,
+            "RightMargin": 986.9673,
+            "TopMargin": 490.4127,
+            "BottomMargin": 113.5873,
+            "Tag": 49,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "退出\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "FZZYJT.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.5804,
+                  "Y": 6.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4465,
+                  "Y": 0.1667
+                },
+                "PreSize": {
+                  "X": 0.35,
+                  "Y": 1.2778
+                },
+                "LeftMargin": 32.5804,
+                "RightMargin": 45.4196,
+                "TopMargin": 7.0,
+                "BottomMargin": -17.0,
+                "Tag": 50,
+                "ActionTag": 103311448,
+                "Size": {
+                  "X": 42.0,
+                  "Y": 46.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1626674532,
+            "Size": {
+              "X": 120.0,
+              "Y": 36.0
+            },
+            "Name": "btn_quit",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 20,
+            "LabelText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "FZZYJT.TTF",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": 583.8651
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1585,
+              "Y": 0.9123
+            },
+            "PreSize": {
+              "X": 0.7923,
+              "Y": 0.0625
+            },
+            "LeftMargin": 180.0,
+            "RightMargin": 56.0,
+            "TopMargin": 56.1349,
+            "BottomMargin": 543.8651,
+            "Tag": 51,
+            "ActionTag": 1354455343,
+            "Size": {
+              "X": 900.0,
+              "Y": 40.0
+            },
+            "Name": "lab_api",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 20,
+            "LabelText": "\n",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "FZZYJT.TTF",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 187.4523,
+              "Y": 522.8392
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.165,
+              "Y": 0.8169
+            },
+            "PreSize": {
+              "X": 0.7923,
+              "Y": 0.625
+            },
+            "LeftMargin": 187.4523,
+            "RightMargin": 48.5477,
+            "TopMargin": 117.1608,
+            "BottomMargin": 122.8392,
+            "Tag": 52,
+            "ActionTag": 896427335,
+            "Size": {
+              "X": 900.0,
+              "Y": 400.0
+            },
+            "Name": "lab_event",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "版本号：1.0.0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1026.5751,
+              "Y": 615.5493
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9037,
+              "Y": 0.9618
+            },
+            "PreSize": {
+              "X": 0.1144,
+              "Y": 0.0312
+            },
+            "LeftMargin": 961.5751,
+            "RightMargin": 44.4249,
+            "TopMargin": 14.4507,
+            "BottomMargin": 605.5493,
+            "Tag": 53,
+            "ActionTag": 1142384701,
+            "Size": {
+              "X": 130.0,
+              "Y": 20.0
+            },
+            "Name": "Text_20",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 20,
+            "LabelText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "FZZYJT.TTF",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 37.282,
+              "Y": 79.5005
+            },
+            "Scale": {
+              "ScaleX": 1.1749,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0328,
+              "Y": 0.1242
+            },
+            "PreSize": {
+              "X": 0.7923,
+              "Y": 0.0625
+            },
+            "LeftMargin": 37.282,
+            "RightMargin": 198.718,
+            "TopMargin": 560.4995,
+            "BottomMargin": 39.5005,
+            "Tag": 21,
+            "ActionTag": -583661064,
+            "Size": {
+              "X": 900.0,
+              "Y": 40.0
+            },
+            "Name": "lab_location",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "测试",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 357.2459,
+              "Y": 406.969
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3145,
+              "Y": 0.6359
+            },
+            "PreSize": {
+              "X": 0.0968,
+              "Y": 0.0562
+            },
+            "LeftMargin": 302.2459,
+            "RightMargin": 723.7541,
+            "TopMargin": 215.031,
+            "BottomMargin": 388.969,
+            "Tag": 22,
+            "ActionTag": 1985867313,
+            "Size": {
+              "X": 110.0,
+              "Y": 36.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "测试",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 357.7996,
+              "Y": 467.8167
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.315,
+              "Y": 0.731
+            },
+            "PreSize": {
+              "X": 0.0968,
+              "Y": 0.0562
+            },
+            "LeftMargin": 302.7996,
+            "RightMargin": 723.2004,
+            "TopMargin": 154.1833,
+            "BottomMargin": 449.8167,
+            "Tag": 23,
+            "ActionTag": 1777231568,
+            "Size": {
+              "X": 110.0,
+              "Y": 36.0
+            },
+            "Name": "Button_1_0",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/Button_Normal.png",
+        "Default/Button_Press.png",
+        "FZZYJT.TTF"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}
